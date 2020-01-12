@@ -1,20 +1,8 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background:url("https://hdwallsource.com/img/2014/3/cherry-blossom-wallpaper-6558-6799-hd-wallpapers.jpg");
+  background-repeat: no-repeat;
+  background-size:1920px 1080px;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +16,106 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Calculator
+{
+  background-color: #6B798C;
+  border:1px solid white;
+  border-radius:15px;
+  width:500px;
+  height:500px;
+  padding:10px;
+  display: block;
+  justify-content: center;
+}
+#Screen
+{
+  background-color:#8FDF94;
+  border:1px solid black;
+  border-radius:5px;
+  color:black;
+  width:450px;
+  height:50px;
+  margin-top:20px;
+  padding:5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 25px;
+}
+
+
+.row {
+  
+  height: 11vh;
+  color: black;
+  justify-content: center;
+}
+
+.container
+{
+  margin-top: 10px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+
+.button
+{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  background-color:grey ;
+  padding:20px;
+  flex:1 1 80px;
+  border:1px solid black;
+  border-radius:5px;
+  text-align: center;
+}
+
+.button:hover
+{
+  cursor: pointer;
+  background-color: #9b9b9b;
+}
+ .button:active {
+  transform: scale(.95);
+}
+
+.largebuttoncolumn
+{
+  flex:170px;
+}
+
+.largebuttonrow
+{
+  height:110px;
+}
+
+.clear
+{
+  background-color:#bc0810 ;
+}
+
+.clear:hover
+{
+  background-color:#f10a14;
+}
+
+.operator
+{
+  background-color:#414141;
+}
+
+.operator:hover
+{
+  background-color:#696969;
+}
+
+.equal
+{
+  background-color:#da5f00;
+}
+
+.equal:hover
+{
+  background-color:#ff7a13;
 }
