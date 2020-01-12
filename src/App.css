@@ -39,7 +39,9 @@
   padding:5px;
   display: flex;
   justify-content: flex-end;
-  font-size: 25px;
+  font-size: 30px;
+  font-family: "Digital-7";
+  overflow: hidden;
 }
 
 
