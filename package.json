@@ -6,9 +6,9 @@
     "@testing-library/jest-dom": "*",
     "@testing-library/react": "*",
     "@testing-library/user-event": "*",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "react": "*",
+    "react-dom": "*",
+    "react-scripts": "*"
   },
   "scripts": {
     "start": "react-scripts start",
