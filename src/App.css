@@ -1,7 +1,8 @@
 .App-header {
-  background:url("https://hdwallsource.com/img/2014/3/cherry-blossom-wallpaper-6558-6799-hd-wallpapers.jpg");
+  /* background:url("https://hdwallsource.com/img/2014/3/cherry-blossom-wallpaper-6558-6799-hd-wallpapers.jpg"); */
+  background: url("images/bg-photo.jpg");
   background-repeat: no-repeat;
-  background-size:1920px 1080px;
+  background-size: 1920px 1080px;
 
   min-height: 100vh;
   display: flex;
@@ -16,27 +17,25 @@
   color: #61dafb;
 }
 
-.Calculator
-{
-  background-color: #6B798C;
-  border:1px solid white;
-  border-radius:15px;
-  width:500px;
-  height:500px;
-  padding:10px;
+.Calculator {
+  background-color: #6b798c;
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 500px;
+  height: auto;
+  padding: 10px;
   display: block;
   justify-content: center;
 }
-#Screen
-{
-  background-color:#8FDF94;
-  border:1px solid black;
-  border-radius:5px;
-  color:black;
-  width:450px;
-  height:50px;
-  margin-top:20px;
-  padding:5px;
+#Screen {
+  background-color: #8fdf94;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  width: 450px;
+  height: 50px;
+  margin-top: 20px;
+  padding: 5px;
   display: flex;
   justify-content: flex-end;
   font-size: 30px;
@@ -44,80 +43,67 @@
   overflow: hidden;
 }
 
-
 .row {
-  
   height: 11vh;
   color: black;
   justify-content: center;
 }
 
-.container
-{
+.container {
   margin-top: 10px;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
 }
 
-
-.button
-{
-  display: flex; 
+.button {
+  display: flex;
   justify-content: center;
   align-items: center;
-  background-color:grey ;
-  padding:20px;
-  flex:1 1 80px;
-  border:1px solid black;
-  border-radius:5px;
+  background-color: grey;
+  padding: 20px;
+  flex: 1 1 80px;
+  border: 1px solid black;
+  border-radius: 5px;
   text-align: center;
+  margin: 2.5px;
 }
 
-.button:hover
-{
+.button:hover {
   cursor: pointer;
   background-color: #9b9b9b;
 }
- .button:active {
-  transform: scale(.95);
+.button:active {
+  transform: scale(0.95);
 }
 
-.largebuttoncolumn
-{
-  flex:170px;
+.largebuttoncolumn {
+  flex: 170px;
 }
 
-.largebuttonrow
-{
-  height:110px;
+.largebuttonrow {
+  height: 110px;
 }
 
-.clear
-{
-  background-color:#bc0810 ;
+.clear {
+  background-color: #bc0810;
 }
 
-.clear:hover
-{
-  background-color:#f10a14;
+.clear:hover {
+  background-color: #f10a14;
 }
 
-.operator
-{
-  background-color:#414141;
+.operator {
+  background-color: #414141;
 }
 
-.operator:hover
-{
-  background-color:#696969;
+.operator:hover {
+  background-color: #696969;
 }
 
-.equal
-{
-  background-color:#da5f00;
+.equal {
+  background-color: #da5f00;
 }
 
-.equal:hover
-{
-  background-color:#ff7a13;
+.equal:hover {
+  background-color: #ff7a13;
 }
